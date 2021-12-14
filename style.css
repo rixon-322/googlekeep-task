@@ -13,13 +13,9 @@
     font-family: system-ui;
   }
   header{
-    margin: auto -10px;
-    padding: 10px 20px;
-    box-shadow: 0 0 2px 0 rgb(114, 114, 114);
     display: flex;
-    flex-direction: row;
-    align-self: center;
-    align-items: center;
+    height: 60px;
+    box-shadow: 0 0 2px 0 rgb(114, 114, 114);
   }
 
   .container-items{
@@ -107,3 +103,25 @@
     left: 0;
   }
   
+  .buttons{
+    display: flex;
+  }
+  .delete{
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .edit{
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 20px;
+  }
